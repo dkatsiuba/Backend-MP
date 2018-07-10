@@ -18,10 +18,6 @@ package ch.zhaw.sml.iwi.pmis.meng.simplebackend.repository;
 import ch.zhaw.sml.iwi.pmis.meng.simplebackend.model.UserAccount;
 import org.springframework.data.repository.CrudRepository;
 
-/**
- *
- * @author Peter Heinrich <peter.heinrich@zhaw.ch>
- */
 public interface UserAccountRepository extends CrudRepository<UserAccount, String>{
     
 }

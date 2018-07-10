@@ -22,9 +22,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class SimpleBackend  {
+public class Backend {
   public static void main(String[] args) {
-        SpringApplication.run(SimpleBackend.class, args);
+        SpringApplication.run(Backend.class, args);
     }
 
    /* public SimpleBackend() {

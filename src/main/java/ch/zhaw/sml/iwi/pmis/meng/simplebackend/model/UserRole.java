@@ -15,10 +15,6 @@
  */
 package ch.zhaw.sml.iwi.pmis.meng.simplebackend.model;
 
-/**
- *
- * @author Peter Heinrich <peter.heinrich@zhaw.ch>
- */
 public enum UserRole {
     ROLE_USER, ROLE_ADMIN, ROLE_DOCTOR, ROLE_PATIENT;
 

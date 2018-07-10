@@ -56,7 +56,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>ch.zhaw.sml.iwi.pmis.meng.simplebackend.SimpleBackend</mainClass>
+                            <mainClass>ch.zhaw.sml.iwi.pmis.meng.simplebackend.Backend</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

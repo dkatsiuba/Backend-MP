@@ -25,10 +25,6 @@ import javax.persistence.OrderColumn;
 import lombok.Data;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-/**
- *
- * @author Peter Heinrich <peter.heinrich@zhaw.ch>
- */
 @Entity
 @Data
 @SuppressWarnings("SerializableClass")

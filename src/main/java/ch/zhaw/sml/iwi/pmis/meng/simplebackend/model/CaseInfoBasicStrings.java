@@ -11,10 +11,6 @@ import javax.persistence.Lob;
 import javax.persistence.criteria.CriteriaBuilder;
 import lombok.Data;
 
-/**
- *
- * @author peterhe
- */
 @Entity
 @Data
 @DiscriminatorValue("CaseInfoBasicStrings")

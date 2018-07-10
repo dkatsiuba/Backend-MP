@@ -23,10 +23,6 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint;
 import org.springframework.stereotype.Component;
 
-/**
- *
- * @author Peter Heinrich <peter.heinrich@zhaw.ch>
- */
 @Component
 public class UnauthorizedEntryPoint extends BasicAuthenticationEntryPoint {
 
