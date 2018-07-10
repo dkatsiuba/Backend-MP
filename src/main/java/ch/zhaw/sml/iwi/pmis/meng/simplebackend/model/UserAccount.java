@@ -15,6 +15,7 @@
  */
 package ch.zhaw.sml.iwi.pmis.meng.simplebackend.model;
 
+import ch.zhaw.sml.iwi.pmis.meng.simplebackend.constant.UserRole;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.ElementCollection;
 import javax.persistence.Entity;

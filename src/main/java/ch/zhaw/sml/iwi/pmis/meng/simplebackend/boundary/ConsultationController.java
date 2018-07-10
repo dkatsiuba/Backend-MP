@@ -6,6 +6,7 @@ import ch.zhaw.sml.iwi.pmis.meng.simplebackend.model.UserAccount;
 import ch.zhaw.sml.iwi.pmis.meng.simplebackend.repository.ConsultationRepository;
 import ch.zhaw.sml.iwi.pmis.meng.simplebackend.repository.PatientRepository;
 import ch.zhaw.sml.iwi.pmis.meng.simplebackend.repository.UserAccountRepository;
+import ch.zhaw.sml.iwi.pmis.meng.simplebackend.service.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.transaction.Transactional;
@@ -38,21 +39,19 @@ public class ConsultationController {
     private ConsultationRepository consultationRepository;
     @Autowired
     private PatientRepository patientRepository;
+    @Autowired
+    private PatientService patientService;
 
     @GetMapping("/consultation")
     @Secured({"ROLE_DOCTOR"})
     public List<Consultation> getAllConsultaions() {
-        List<Consultation> resList = new ArrayList<>();
-        for(Consultation c : consultationRepository.findAll()) {
-            resList.add(c);
-        }
-        return resList;
+        return patientService.getAllConsultaions();
     }
     
     @GetMapping("/patientRecord")
     @Secured({"ROLE_PATIENT"})
     public Patient getPatientRecord() {
-         SecurityContext context = SecurityContextHolder.getContext();
+        SecurityContext context = SecurityContextHolder.getContext();
         Authentication authentication = context.getAuthentication();
         UserAccount user = userAccountRepository.findById(authentication.getName()).get();
 

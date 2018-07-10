@@ -6,7 +6,7 @@ import ch.zhaw.sml.iwi.pmis.meng.simplebackend.model.Consultation;
 import ch.zhaw.sml.iwi.pmis.meng.simplebackend.model.Doctor;
 import ch.zhaw.sml.iwi.pmis.meng.simplebackend.model.Patient;
 import ch.zhaw.sml.iwi.pmis.meng.simplebackend.model.UserAccount;
-import ch.zhaw.sml.iwi.pmis.meng.simplebackend.model.UserRole;
+import ch.zhaw.sml.iwi.pmis.meng.simplebackend.constant.UserRole;
 import ch.zhaw.sml.iwi.pmis.meng.simplebackend.repository.CaseInfoRepository;
 import ch.zhaw.sml.iwi.pmis.meng.simplebackend.repository.ConsultationRepository;
 import ch.zhaw.sml.iwi.pmis.meng.simplebackend.repository.DoctorRepository;

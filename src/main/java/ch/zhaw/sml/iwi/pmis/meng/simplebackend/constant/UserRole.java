@@ -13,10 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package ch.zhaw.sml.iwi.pmis.meng.simplebackend.model;
+package ch.zhaw.sml.iwi.pmis.meng.simplebackend.constant;
 
 public enum UserRole {
-    ROLE_USER, ROLE_ADMIN, ROLE_DOCTOR, ROLE_PATIENT;
+    ROLE_USER,
+    ROLE_ADMIN,
+    ROLE_DOCTOR,
+    ROLE_PATIENT;
 
     @Override
     public String toString() {

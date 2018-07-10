@@ -17,7 +17,7 @@ package ch.zhaw.sml.iwi.pmis.meng.simplebackend.security;
 
 
 import ch.zhaw.sml.iwi.pmis.meng.simplebackend.model.UserAccount;
-import ch.zhaw.sml.iwi.pmis.meng.simplebackend.model.UserRole;
+import ch.zhaw.sml.iwi.pmis.meng.simplebackend.constant.UserRole;
 import ch.zhaw.sml.iwi.pmis.meng.simplebackend.repository.UserAccountRepository;
 import java.util.ArrayList;
 import java.util.List;
